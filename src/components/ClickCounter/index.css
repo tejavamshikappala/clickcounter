@@ -1,0 +1,50 @@
+.for_Outer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  padding: 20px;
+}
+.for_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+.button-t {
+  background-color: #007bff;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.forHeader {
+  color: #2d3a35;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+.forParaa {
+  font-size: 20px;
+  color: #2d3a35;
+  text-align: center;
+  font-weight: 400;
+}
+@media screen and (max-width: 576px) {
+  .for_inner {
+    margin: 80px;
+  }
+  .forHeader {
+    font-size: 39px;
+  }
+  .forParaa {
+    font-size: 18px;
+  }
+}
+
+.for_span {
+  color: #c20a72;
+}
